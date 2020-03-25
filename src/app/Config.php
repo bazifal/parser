@@ -32,7 +32,8 @@ class Config
      */
     private function check():bool
     {
-        //TODO: сделал упрощенные проверки, естественно в полноценном приложении их надо сделать более глубокими
+        //TODO: it is very simple checks for the config file structure. 
+        //TODO: in the real app this checks will be more fluent
         return isset($this->config['input']) && isset($this->config['output']);
     }
 

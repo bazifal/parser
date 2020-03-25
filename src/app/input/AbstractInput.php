@@ -8,13 +8,13 @@ namespace app\input;
 abstract class AbstractInput
 {
     /**
-     * дескриптор или строка с адресом источника данных
+     * descriptor or path to the file with the input data
      * @var string|resource
      */
     protected $source;
 
     /**
-     * массив, описывающий формат входящих данных
+     * config with description of the data source with validation rules
      * @var array
      */
     protected $format;
